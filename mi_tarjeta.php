@@ -1,12 +1,12 @@
 <form method="post">
   Nombre: <input type="text" name="nombre">
-  <input type="submit" value="Enviar">
+
   apellido: <input type="text" name="apellido">
-  <input type="submit" value="Enviar">
+ 
   edad <input type="text" name="edad">
-  <input type="submit" value="Enviar">
+  
   universidad <input type="text" name="universidad">
-  <input type="submit" value="Enviar">
+  
   carrera <input type="text" name="carrera">
   <input type="submit" value="Enviar">
 </form>
@@ -28,3 +28,4 @@
 
     }
 ?>
+

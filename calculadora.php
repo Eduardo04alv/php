@@ -7,6 +7,7 @@
     </form>
 </html>
 <?php
+
     $x = $_POST["x"];
     $y = $_POST["y"];
     $operacion = $_POST["operacion"];
