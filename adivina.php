@@ -6,7 +6,7 @@
      </form>
 </html>
 <?php 
-
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $x = $_POST["x"];
         $numero = rand(1, 5);
         if ($x == $numero)  {
@@ -14,4 +14,5 @@
     } else {
         echo "<h2>¡Sigue intentando!, el numero correcto es: </h2>" . $numero;
     }
+}
 ?>
