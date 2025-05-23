@@ -2,7 +2,7 @@
     <form method="post">
       x: <input type="number" step="any" name="x">
       y: <input type="number" step="any" name="y">
-      operacion: <input type="string" step="any" name="operacion">
+      operacion: <input type="text" step="any" name="operacion">
          <input type="submit" value="Enviar">      
     </form>
 </html>

@@ -1,13 +1,13 @@
 <form method="post">
   Nombre: <input type="text" name="nombre">
 
-  apellido: <input type="text" name="apellido">
+  apellido: <input type="text" name="apellido"><br><br>
  
   edad <input type="text" name="edad">
   
-  universidad <input type="text" name="universidad">
+  universidad <input type="text" name="universidad"><br><br>
   
-  carrera <input type="text" name="carrera">
+  carrera <input type="text" name="carrera"><br><br>
   <input type="submit" value="Enviar">
 </form>
 <?php
